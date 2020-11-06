@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
-import logo from '../logo.svg';
+import logo from '../Images/naicha3.png';
 import '../App.css';
 
 function Navigation(props) {
@@ -16,7 +16,7 @@ function Navigation(props) {
             height="30"
             className="d-inline-block align-top"
           />{' '}
-          React Bootstrap
+          formosaboba
         </Navbar.Brand>
          <Nav className="mr-auto">
           <Link to="/" className="item">Home</Link>

@@ -59,11 +59,22 @@ h1 {
   font-size: 69px;
 }
 
-p{
+p {
   color: white;
   opacity: .75;
   font-family: 'Gingham';
   text-transform: uppercase;
   font-variation-settings: "wght" 0, "wdth" 0;
   font-size: 30px;
+}
+
+row {
+  margin: 10px;
+}
+.bobaImg {
+  max-width: 300px;
+  height: 300px;
+}
+.cardImg {
+  height: 300px;
 }

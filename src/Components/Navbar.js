@@ -1,13 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavLink } from 'react-bootstrap';
 import logo from '../Images/naicha3.png';
 import '../App.css';
 
 function Navigation(props) {
   return (
-    <Navbar bg="dark" variant="dark" >
+    <Navbar bg="dark" variant="dark">
         <Navbar.Brand src="/">
           <img
             alt=""
@@ -19,11 +19,11 @@ function Navigation(props) {
           formosaboba
         </Navbar.Brand>
          <Nav className="mr-auto">
-          <Link to="/" className="item">Home</Link>
+          <Link to="/" className="item" >Home</Link>
           <Link to="/projects" className="item">Projects</Link>
           <Link to="/about" className="item">About</Link>
-        </Nav>
-    </Navbar>
+         </Nav>
+        </Navbar>
 
   )
 }

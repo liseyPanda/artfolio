@@ -41,16 +41,36 @@
     transform: rotate(360deg);
   }
 }
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 .item{
   color: gray;
   padding-left: 1em;
 }
 .banner {
   margin-top: 45px;
-  background-image: url("./Images/poster.jpg");
+  background-image: url("./Images/banner1.jpg");
 }
 
-h1 {
+.homePage {
+  position: relative;
+  z-index: 10;
+}
+
+.aboutPage {
+  padding-top: 45px;
+}
+
+.wrapper {
+   padding-bottom: 2.5rem;
+}
+.bannerHello {
   color: white;
   opacity: .56;
   font-family: 'Gingham';
@@ -59,7 +79,7 @@ h1 {
   font-size: 69px;
 }
 
-p {
+.bannerSecond {
   color: white;
   opacity: .75;
   font-family: 'Gingham';
@@ -67,14 +87,353 @@ p {
   font-variation-settings: "wght" 0, "wdth" 0;
   font-size: 30px;
 }
+p {
+  font-family: 'Gingham';
+  text-transform: uppercase;
+  font-variation-settings: "wght" 0, "wdth" 130;
+  font-size: 30px;
+}
+
+b {
+  opacity: .75;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+span {
+  font-family: 'Gingham';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  font-variation-settings: "wght" 700, "wdth" 150;
+  opacity: .80;
+}
+
+.art {
+  font-family: 'Gingham';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 69px;
+  font-variation-settings: "wght" 700, "wdth" 150;
+  opacity: .80;
+}
+.artBody{
+  text-align: left;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  opacity: .75;
+
+}
+
+a:hover {
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+}
 
 row {
   margin: 10px;
 }
+
 .bobaImg {
-  max-width: 300px;
-  height: 300px;
+  border: none;
 }
-.cardImg {
-  height: 300px;
+
+
+#followerText{
+  padding-left: 0;
+  padding-top: 7vh;
+}
+#hobbyText{
+  padding-top: 7vh;
+}
+
+#row1 {
+  padding-bottom: 5px;
+}
+
+.bobaFooter {
+  position: absolute;
+  padding-top: 10px;
+  bottom: none;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.bobaCard{
+  padding-top: 5px;
+}
+
+.imgGrid {
+  margin-top: 45px;
+}
+
+#susBoba{
+      border-radius: 50%;
+}
+.projectImg {
+  width:70%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h5 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-family: 'Gingham';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  font-variation-settings: "wght" 500, "wdth" 170;
+  opacity: .80;
+
+}
+
+h6 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-family: 'Gingham';
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-style: oblique;
+  font-size: 20px;
+  font-variation-settings: "wght" 500, "wdth" 170;
+  opacity: .69;
+}
+
+.hrefs {
+  color: black;
+  opacity: 0.7;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* proper property */
+  transition:.6s;
+}
+
+.hrefs:hover{
+  opacity: 1;
+  color: #fe6d73;
+}
+
+.indent {
+  opacity: .7;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.rightText {
+  text-align: right;
+}
+
+.leftText {
+  text-align: left;
+}
+
+.sci {
+  font-family: 'Gingham';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  font-variation-settings: "wght" 670, "wdth" 127;
+  opacity: .69;
+}
+.emojis {
+  font-size: 18px;
+}
+
+.emphasized {
+  font-size: 20px;
+}
+
+.greeting {
+ padding-bottom: 10px;
+}
+
+.aboutBody {
+  margin: 60px;
+  padding: 10px;
+  opacity: .80;
+}
+
+.titles {
+  font-family: 'Gingham';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  font-variation-settings: "wght" 500, "wdth" 127;
+  opacity: .8;
+}
+/*Images*/
+.still {
+  width: 100%;
+}
+
+.elise {
+  width: 100%;
+}
+
+.logoImg {
+  padding-top: 30px;
+  width: 65%;
+}
+
+/*assets*/
+
+.assets {
+  position: absolute;
+
+}
+
+.c1 {
+width: 100px;
+height: 100px;
+top: 250px;
+left: 30px;
+background-position: top;
+border-radius: 50%;
+background-position: center;
+animation-name: change;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+z-index: 9;
+
+}
+
+/* The animation code */
+@keyframes change {
+  0% {background-color: #fba99d;
+    transform: translate(0%, 100%); }
+  100% {background-color: #FFDCCC;}
+}
+
+.c1Shadow {
+width: 100px;
+height: 100px;
+top: 245px;
+left: 35px;
+filter:blur(1.2em);
+background-position: top;
+border-radius: 50%;
+background-position: center;
+animation-name: shadow;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+opacity: .5;
+z-index: 8;
+
+}
+
+@keyframes shadow {
+  0% {background-color: #270702;
+    transform: translate(0%, 110%); }
+  100% {background-color: #c2230a;}
+}
+
+.c2 {
+  bottom: 200px;
+  left: 50px;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #abedca;
+  transform-origin: top;
+  z-index: 7;
+
+}
+
+.c2animate {
+    animation-name: move;
+    animation-timing-function: ease;
+}
+
+@keyframes move {
+      100%  { transform: translate(0%, -100%); }
+
+}
+
+.c2Shadow {
+  bottom: 190px;
+  left: 58px;
+  filter:blur(1.2em);
+  animation-name: shadow1;
+  animation-timing-function: ease;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #abedca;
+  transform-origin: top;
+  opacity: .6;
+  z-index: 6;
+
+}
+
+
+@keyframes shadow1 {
+  100% {background-color: #072214;
+    transform: translate(0%, -105%); }
+  0% {background-color: #1d874e;}
+}
+
+.s1 {
+width: 300px;
+height: 300px;
+top:56px;
+right: 30px;
+background-image: url('./Images/sticks1.png');
+background-size:100% 100%;
+z-index: 0;
+}
+.s1Shadow {
+width: 300px;
+height: 300px;
+top: 56px;
+right: 25px;
+background-image: url('./Images/sticks1.png');
+background-size:100% 100%;
+filter:blur(.3em);
+opacity: .5;
+z-index: 0;
+}
+
+/*TOGGLE MENU BUTTON*/
+#roundButton {
+  background-color: #abedca;
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px solid #072214;
+  outline: none;
+  transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+}
+
+#roundButton:hover {
+  background-color: #abedca;
+  cursor: pointer;
+  border-color: #072214;
+  transform: scale(1.2, 1.2);
+}
+
+#roundButton:active {
+  border-color: #072214;
+  background-color: #FFF;
 }

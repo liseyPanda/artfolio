@@ -5,10 +5,14 @@ import Navigation from './Components/Navbar.js';
 import Home from './Components/Home.js';
 import Projects from './Components/Projects.js';
 import About from './Components/About.js';
+import Footer from './Components/Footer.js';
 import {AnimatePresence, motion} from 'framer-motion';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab} from '@fortawesome/free-brands-svg-icons'
 import './App.css';
 
 function App() {
+  library.add(fab);
   return (
     <BrowserRouter>
       <div className="App">
@@ -21,7 +25,7 @@ function App() {
           <Route path="/about" component={About} />
         </Switch>
       </AnimatePresence>
-      
+      <Footer></Footer>
       </div>
     </BrowserRouter>
   );

@@ -7,7 +7,7 @@ import '../App.css';
 
 function Navigation(props) {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar className="navColor">
         <Navbar.Brand src="/">
           <img
             alt=""

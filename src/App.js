@@ -7,6 +7,7 @@ import Projects from './Components/Projects.js';
 import About from './Components/About.js';
 import Footer from './Components/Footer.js';
 import {AnimatePresence, motion} from 'framer-motion';
+import ScrollUp from "./Components/ScrollUp.js";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab} from '@fortawesome/free-brands-svg-icons'
 import './App.css';

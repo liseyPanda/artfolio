@@ -414,26 +414,31 @@ opacity: .5;
 z-index: 0;
 }
 
+.navColor {
+  color:  #3F261D;
+  box-shadow: 0 15px 15px -15px rgba(0,0,0,.2);
+}
+
 /*TOGGLE MENU BUTTON*/
-#roundButton {
-  background-color: #abedca;
-  margin-bottom: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 10px solid #072214;
-  outline: none;
-  transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+.menu {
+  position: fixed;
+  bottom: 15px;
+  right: 50px;
+  z-index: 5;
 }
-
-#roundButton:hover {
-  background-color: #abedca;
+.chevron:hover {
   cursor: pointer;
-  border-color: #072214;
-  transform: scale(1.2, 1.2);
+  animation-name: chevronMove;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-#roundButton:active {
-  border-color: #072214;
-  background-color: #FFF;
+@keyframes chevronMove {
+  100%{ transform: scale(1.2,1.2);
+  color: #f59587; }
+}
+.chevron:active {
+  color: #FFF;
 }

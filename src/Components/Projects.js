@@ -3,6 +3,7 @@ import Thumbnail from './Thumbnail.js';
 import { motion } from "framer-motion";
 import {Container, Row, Col, Carousel } from 'react-bootstrap';
 import Parallax from 'react-rellax';
+import ScrollUp from "../Components/ScrollUp.js";
 import rage from '../Images/RAGEQUIT2.png';
 import bobaGirl from '../Images/naicha3.png';
 import hype from '../Images/hypeboba.jpg';
@@ -390,6 +391,7 @@ function Projects(props) {
      </Col>
     </Row>
     </Container>
+    <ScrollUp/>
     </motion.div>
   )
 }

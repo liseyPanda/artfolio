@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import self from "../Images/Capture.PNG";
 import tigger from "../Images/Capture2.PNG"
 import {Container, Row, Col, Jumbotron, Button, Card} from 'react-bootstrap';
+import ScrollUp from "../Components/ScrollUp.js";
 
 function About(props) {
   return (
@@ -81,6 +82,7 @@ function About(props) {
       <div className="assets c2 c2animate"></div>
       <div className="assets c2Shadow"></div>
     </Container>
+    <ScrollUp/>
     </motion.div>
   )
 }

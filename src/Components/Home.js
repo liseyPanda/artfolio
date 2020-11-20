@@ -7,7 +7,9 @@ import hype from "../Images/hypeboba.jpg";
 import Parallax from 'react-rellax';
 import c1 from "../Images/circle1.png";
 import c2 from "../Images/circle2.png";
+import ScrollUp from "../Components/ScrollUp.js";
 import '../App.css';
+
 
 function Home(props) {
   const transition = {duration: .69, ease: [0.43, .13, .23, .96]};
@@ -136,9 +138,8 @@ function Home(props) {
         </Col>
       </Row>
     </div>
-    <button id="roundButton"/>
     </Container>
-
+    <ScrollUp/>
     <div className="assets c1 c1animate" id="c1"></div>
     <div className="assets c1Shadow" id="c1S"></div>
     <div className="assets c2 c2animate" id="c2"></div>

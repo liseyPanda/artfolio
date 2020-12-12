@@ -123,7 +123,7 @@ function Home(props) {
         <p>WEB DESIGN</p>
         <hr></hr>
         Now that I have more free time on my hands I have been trying to teach myself web developement. If you have any
-        suggestions or critiques please, again, send me an email.
+        suggestions or critiques for this website please, again, send me an email.
 
         </Parallax>
         </Col>

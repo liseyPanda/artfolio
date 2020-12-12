@@ -1,8 +1,10 @@
 import React from "react";
 import Thumbnail from './Thumbnail.js';
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import {Container, Row, Col, Carousel } from 'react-bootstrap';
 import Parallax from 'react-rellax';
+import Programs from '../Components/Programs.js';
+import Images from '../Components/Gallery.js';
 import ScrollUp from "../Components/ScrollUp.js";
 import rage from '../Images/RAGEQUIT2.png';
 import bobaGirl from '../Images/naicha3.png';
@@ -42,7 +44,6 @@ import moneyboujee from '../Images/dtys13.jpg';
 import fashion from '../Images/purp3.jpg';
 import dtiys from '../Images/dtys1.jpg';
 import ryu from '../Images/ryu1.jpg';
-
 import '../App.css';
 
 function Projects(props) {
@@ -159,10 +160,9 @@ function Projects(props) {
 
     <span className="art">(ART</span>is<span className="art">T)</span>EMPTING
     </h1>
-    <p className="artBody">You made it to the Gallery! How are you doing today?
+    <p className="artBody">You are on my Journey Page! This is where I explain my experiences with Art and Comp Sci.
     </p>
     <div className="text-justify">
-    This is where I keep my latest drawings, doodles, emotes, concentrations and more.
     I was introduced to the art of drawing, like most, in elementary school. This is where I would experiment drawing with crayons, markers, pencils, etc.
     When I went into Middle School there was not much influence as I took up sports instead. During this awkward stage of life I went through my manga phase. I would try to replicate my favorate anime's such as
     Sailormoon, Inuyasha, Ranma 1/2 and many more.
@@ -214,7 +214,7 @@ function Projects(props) {
     <Row>
     <Col xs={12} md={4}></Col>
     <Col xs={12} md={4}>
-    <img src={bobaGirl} alt="hypeBoba" className="logoImg" id="susBoba" />
+    <img src={bobaGirl} alt="hypeBoba" className="logoImg" id="susBoba"/>
     </Col>
     <Col xs={12} md={4}></Col>
     </Row>
@@ -390,7 +390,12 @@ function Projects(props) {
      <img src={dragon} alt="profile" className="still" />
      </Col>
     </Row>
+    <hr></hr>
     </Container>
+
+    <Programs></Programs>
+    <hr></hr>
+    <Images></Images>
     <ScrollUp/>
     </motion.div>
   )

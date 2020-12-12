@@ -37,9 +37,10 @@ function Footer(props) {
         </Row>
         <Row className="justify-content-md-center" id="botRow">
         <Col>
-         <FontAwesomeIcon icon={['fab', 'twitch']} size="2x" />
-         <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" />
-         <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" />
+         <a href="https://www.twitch.tv/formosaboba" target="_blank"><FontAwesomeIcon className="icons" icon={['fab', 'twitch']} size="3x"/></a>
+         <a href="https://www.instagram.com/liseypanda_art/" target="_blank"><FontAwesomeIcon className="icons" icon={['fab', 'instagram']} size="3x" /></a>
+         <a href="https://twitter.com/liseyPanda" target="_blank"><FontAwesomeIcon className="icons" icon={['fab', 'twitter']} size="3x" /></a>
+         <a href="https://www.linkedin.com/in/elise-falck-5b3222128/" target="_blank"><FontAwesomeIcon className="icons" icon={['fab', 'linkedin']} size="3x" /></a>
         </Col>
         </Row>
     </Card>

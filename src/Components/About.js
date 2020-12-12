@@ -13,6 +13,8 @@ function About(props) {
     exit={{ opacity: 0 }}
     >
     <Container className="aboutPage">
+      <p className="about ">ABOUT</p>
+      <hr></hr>
       <Row>
         <Col sm lg={4}><img src={self} alt="Elise" className="elise"/></Col>
         <Col className="text-left" sm lg={8}>
@@ -26,7 +28,7 @@ function About(props) {
         I have <b className="emphasized">2 years</b> experience from <i>Oracle</i> with a concentration in Cloud Based Application Integration and Application Developement.
         <br></br>
         I have <b className="emphasized">5 Years</b> experience in customer service between <i>Oracle</i> and <i>Crime Prevention Home Security Systems</i>.
-        <h6>Skills</h6>
+        <h5>Skills</h5>
         <hr></hr>
         <Row>
         <Col sm lg={6} className="text-left">

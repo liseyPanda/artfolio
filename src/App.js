@@ -17,17 +17,17 @@ import './App.css';
 function App() {
   library.add(fab);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <div className="App">
 
       <Navigation></Navigation>
       <AnimatePresence>
         <Switch>
-          <Route exact path="/portfolio" component={Home} />
-          <Route path="/portfolio/projects" component={Projects} />
-          <Route path="/portfolio/projects#compsci" component={Programs} />
-          <Route path="/portfolio/projects#gallery" component={Images} />
-          <Route path="/portfolio/about" component={About} />
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/projects#compsci" component={Programs} />
+          <Route path="/projects#gallery" component={Images} />
+          <Route path="/about" component={About} />
         </Switch>
       </AnimatePresence>
       <Footer></Footer>

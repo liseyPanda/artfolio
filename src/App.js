@@ -23,11 +23,11 @@ function App() {
       <Navigation></Navigation>
       <AnimatePresence>
         <Switch>
-          <Route exact path="/artfolio" component={Home} />
-          <Route path="/artfolio/projects" component={Projects} />
-          <Route path="/artfolio/projects#compsci" component={Programs} />
-          <Route path="/artfolio/projects#gallery" component={Images} />
-          <Route path="/artfolio/about" component={About} />
+          <Route exact path="/portfolio" component={Home} />
+          <Route path="/portfolio/projects" component={Projects} />
+          <Route path="/portfolio/projects#compsci" component={Programs} />
+          <Route path="/portfolio/projects#gallery" component={Images} />
+          <Route path="/portfolio/about" component={About} />
         </Switch>
       </AnimatePresence>
       <Footer></Footer>

@@ -1,6 +1,6 @@
 {
-  "name": "artfolio",
-  "homepage": "http://liseypanda.github.io/artfolio",
+  "name": "portfolio",
+  "homepage": "http://liseypanda.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

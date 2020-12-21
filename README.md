@@ -68,5 +68,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 =======
-# artfolio
+# portfolio
 >>>>>>> d0329870405647f5647b1fac5c2e50f6fad1f904

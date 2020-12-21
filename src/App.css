@@ -147,6 +147,29 @@ a:hover {
   text-decoration: none;
 }
 
+#dropdown {
+  position: relative;
+}
+#dropdown:hover .dropdown-menu{
+  display: block !important;
+}
+
+.dropdown-items:hover {
+  background-color: none;
+  animation-name: breathe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 9;
+
+}
+
+/* The animation code */
+@keyframes breathe {
+  0% {color: #fba99d; }
+  100% {color: #104956;}
+}
+
 row {
   margin: 10px;
 }

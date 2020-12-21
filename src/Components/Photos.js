@@ -12,6 +12,14 @@ import mermay16 from '../Images/mermay16.jpg';
 import mermay19 from '../Images/mermay19.jpg';
 import mermay21 from '../Images/mermay21.jpg';
 import mermay23 from '../Images/mermay23.jpg';
+import mermay26 from '../Images/mermay26.jpg';
+import mermay28 from '../Images/mermay28.jpg';
+import mermay30 from '../Images/mermay30.jpg';
+import mermay32 from '../Images/mermay32.jpg';
+import mermay35 from '../Images/mermay35.jpg';
+import mermay39 from '../Images/mermay39.jpg';
+import mermay41 from '../Images/mermay41.jpg';
+import mermay42 from '../Images/mermay42.jpg';
 import ryu from '../Images/ryu1.jpg';
 
 const Photos = [
@@ -62,6 +70,51 @@ const Photos = [
 },
 {
   src: mermay21,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay23,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay26,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay28,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay30,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay32,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay35,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay39,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay41,
+  width: 1,
+  height: 1
+},
+{
+  src: mermay42,
   width: 1,
   height: 1
 }

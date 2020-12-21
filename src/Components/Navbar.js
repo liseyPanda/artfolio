@@ -5,7 +5,24 @@ import { Navbar, Nav, NavItem, NavDropdown, NavLink } from 'react-bootstrap';
 import logo from '../Images/naicha3.png';
 import '../App.css';
 
-function Navigation(props) {
+class Navigation extends React.Component {
+
+  constructor(props) {
+  super(props)
+  this.state = { isOpen: false }
+  }
+
+  handleOpen = () => {
+  this.setState({ isOpen: true })
+  console.log("open")
+  }
+
+  handleClose = () => {
+   this.setState({ isOpen: false })
+   console.log("close")
+  }
+
+render(){
   return (
     <Navbar className="navColor">
         <Navbar.Brand src="/">
@@ -20,16 +37,21 @@ function Navigation(props) {
         </Navbar.Brand>
          <Nav className="mr-auto">
           <Nav.Link href="/" className="item" >Home</Nav.Link>
-          <NavDropdown href="/pojects" title="Projects" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/projects">Introduction</NavDropdown.Item>
-            <NavDropdown.Item href="/projects#compsci">Computer Projects</NavDropdown.Item>
-            <NavDropdown.Item href="/projects#gallery">Gallery</NavDropdown.Item>
-          </NavDropdown>
+          <Nav.Link
+            className="item"
+            href="/projects"
+            id="dropdown"
+          >Projects
+          <ul className="dropdown-menu">
+            <NavDropdown.Item className="dropdown-items" href="/projects#compsci">Programs</NavDropdown.Item>
+            <NavDropdown.Item className="dropdown-items" href="/projects#gallery">Gallery</NavDropdown.Item>
+          </ul>
+          </Nav.Link>
           <Nav.Link href="/about" className="item">About</Nav.Link>
          </Nav>
         </Navbar>
 
   )
 }
-
+}
 export default Navigation;

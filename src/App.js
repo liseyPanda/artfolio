@@ -24,7 +24,7 @@ function App() {
       <AnimatePresence>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="" component={Projects} />
+          <Route exact path="/Projects" component={Projects} />
           <Route path="/projects#compsci" component={Programs} />
           <Route path="/projects#gallery" component={Images} />
           <Route path="/about" component={About} />

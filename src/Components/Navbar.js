@@ -36,7 +36,7 @@ render(){
           formosaboba
         </Navbar.Brand>
          <Nav className="mr-auto">
-          <Nav.Link href="/" className="item" >Home</Nav.Link>
+          <Nav.Link href="/artfolio" className="item" >Home</Nav.Link>
           <Nav.Link
             className="item"
             href="/projects"

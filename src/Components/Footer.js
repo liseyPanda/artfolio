@@ -6,34 +6,24 @@ import '../App.css';
 
 function Footer(props) {
   return (
-    <div className="bobaFooter">
+    <div className="bobaFooter" id="contact">
     <Card className="bg-dark text-white bobaCard">
-        <Card.Title>Elise Falck</Card.Title>
-        <Row className="justify-content-md-left" id="topRow">
-        <Col xs lg="4"></Col>
-        <Col xs lg="2" className="text-right">
+        <Card.Title>Contact Me</Card.Title>
+        <Row className="justify-content-md-center" id="topRow">
+        <Col xs lg="2" className="text-center">
           <ul>
             <li>
-            <a href = "mailto:efalck123@yahoo.com">
+            <a href = "mailto:efalck123@yahoo.com?subject=Question about (i.e. Art, Comp Sci, Twitch)&body=Hi Elise,">
             Send a Question
             </a>
             </li>
             <li>
-            <a href = "mailto:efalck123@yahoo.com">
+            <a href = "mailto:efalck123@yahoo.com?subject=New Commission&body=Hi Elise, I wanted to know about pricing for a commission.">
             Commission Ask
             </a>
             </li>
-            <li>Oolong Tea</li>
           </ul>
         </Col>
-        <Col xs lg="2" className="text-left">
-          <ul>
-            <li>Milk</li>
-            <li>Almond Milk</li>
-            <li>Coconut Milk</li>
-          </ul>
-        </Col>
-        <Col xs lg="4"></Col>
         </Row>
         <Row className="justify-content-md-center" id="botRow">
         <Col>

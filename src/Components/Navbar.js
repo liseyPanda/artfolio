@@ -48,6 +48,7 @@ render(){
           </ul>
           </Nav.Link>
           <Nav.Link href="/about" className="item">About</Nav.Link>
+          <Nav.Link href="#contact" className="item">Contact</Nav.Link>
          </Nav>
         </Navbar>
 

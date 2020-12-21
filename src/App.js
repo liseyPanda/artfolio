@@ -24,10 +24,10 @@ function App() {
       <AnimatePresence>
         <Switch>
           <Route exact path="/artfolio" component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/compsci" component={Programs} />
-          <Route path="/gallery" component={Images} />
-          <Route path="/about" component={About} />
+          <Route path="/artfolio/projects" component={Projects} />
+          <Route path="/artfolio/projects#compsci" component={Programs} />
+          <Route path="/artfolio/projects#gallery" component={Images} />
+          <Route path="/artfolio/about" component={About} />
         </Switch>
       </AnimatePresence>
       <Footer></Footer>

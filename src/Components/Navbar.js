@@ -39,15 +39,15 @@ render(){
           <Nav.Link href="/artfolio" className="item" >Home</Nav.Link>
           <Nav.Link
             className="item"
-            href="/projects"
+            href="/artfolio/projects"
             id="dropdown"
           >Projects
           <ul className="dropdown-menu">
-            <NavDropdown.Item className="dropdown-items" href="/projects#compsci">Programs</NavDropdown.Item>
-            <NavDropdown.Item className="dropdown-items" href="/projects#gallery">Gallery</NavDropdown.Item>
+            <NavDropdown.Item className="dropdown-items" href="/artfolio/projects#compsci">Programs</NavDropdown.Item>
+            <NavDropdown.Item className="dropdown-items" href="/artfolio/projects#gallery">Gallery</NavDropdown.Item>
           </ul>
           </Nav.Link>
-          <Nav.Link href="/about" className="item">About</Nav.Link>
+          <Nav.Link href="/artfolio/about" className="item">About</Nav.Link>
           <Nav.Link href="#contact" className="item">Contact</Nav.Link>
          </Nav>
         </Navbar>

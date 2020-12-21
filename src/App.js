@@ -17,14 +17,14 @@ import './App.css';
 function App() {
   library.add(fab);
   return (
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
 
       <Navigation></Navigation>
       <AnimatePresence>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/projects" component={Projects} />
+          <Route path="" component={Projects} />
           <Route path="/projects#compsci" component={Programs} />
           <Route path="/projects#gallery" component={Images} />
           <Route path="/about" component={About} />

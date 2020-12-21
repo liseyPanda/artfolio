@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d18c26deae6138c2c8589bad89e33ef3",
+    "revision": "b3f6c7de980f6a8c1fb73462e0b7548c",
     "url": "/artfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/artfolio/static/css/2.f4ce8aa0.chunk.css"
   },
   {
-    "revision": "cd99156e593c8b4de6b1",
+    "revision": "2d410dc959f6c09169ac",
     "url": "/artfolio/static/css/main.e012ae21.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/artfolio/static/js/2.cce95bb1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd99156e593c8b4de6b1",
-    "url": "/artfolio/static/js/main.06cde72e.chunk.js"
+    "revision": "2d410dc959f6c09169ac",
+    "url": "/artfolio/static/js/main.62af4c2a.chunk.js"
   },
   {
     "revision": "ae5d05fd8abbd96f2bfa",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/artfolio/static/css/main.e012ae21.chunk.css",
-    "main.js": "/artfolio/static/js/main.06cde72e.chunk.js",
-    "main.js.map": "/artfolio/static/js/main.06cde72e.chunk.js.map",
+    "main.js": "/artfolio/static/js/main.62af4c2a.chunk.js",
+    "main.js.map": "/artfolio/static/js/main.62af4c2a.chunk.js.map",
     "runtime-main.js": "/artfolio/static/js/runtime-main.30606985.js",
     "runtime-main.js.map": "/artfolio/static/js/runtime-main.30606985.js.map",
     "static/css/2.f4ce8aa0.chunk.css": "/artfolio/static/css/2.f4ce8aa0.chunk.css",
     "static/js/2.cce95bb1.chunk.js": "/artfolio/static/js/2.cce95bb1.chunk.js",
     "static/js/2.cce95bb1.chunk.js.map": "/artfolio/static/js/2.cce95bb1.chunk.js.map",
     "index.html": "/artfolio/index.html",
-    "precache-manifest.9aa35becddd915f796b8497791bca10b.js": "/artfolio/precache-manifest.9aa35becddd915f796b8497791bca10b.js",
+    "precache-manifest.6aee141c7efba6475b77d403b966ba14.js": "/artfolio/precache-manifest.6aee141c7efba6475b77d403b966ba14.js",
     "service-worker.js": "/artfolio/service-worker.js",
     "static/css/2.f4ce8aa0.chunk.css.map": "/artfolio/static/css/2.f4ce8aa0.chunk.css.map",
     "static/css/main.e012ae21.chunk.css.map": "/artfolio/static/css/main.e012ae21.chunk.css.map",
@@ -65,6 +65,6 @@
     "static/css/2.f4ce8aa0.chunk.css",
     "static/js/2.cce95bb1.chunk.js",
     "static/css/main.e012ae21.chunk.css",
-    "static/js/main.06cde72e.chunk.js"
+    "static/js/main.62af4c2a.chunk.js"
   ]
 }

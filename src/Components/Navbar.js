@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import { HashLink} from 'react-router-hash-link';
 import { Navbar, Nav, NavItem, NavDropdown, NavLink } from 'react-bootstrap';
 import logo from '../Images/naicha3.png';
 import '../App.css';
@@ -44,12 +45,12 @@ render(){
             id="dropdown"
           >Projects
           <ul className="dropdown-menu">
-            <NavDropdown.Item className="dropdown-items" as={Link} to="/projects#compsci">Programs</NavDropdown.Item>
-            <NavDropdown.Item className="dropdown-items" as={Link} to="/projects#gallery">Gallery</NavDropdown.Item>
+            <NavDropdown.Item ><HashLink className="dropdown-items d-items"  to="/projects#compsci">Programs</HashLink></NavDropdown.Item>
+            <NavDropdown.Item ><HashLink className="dropdown-items d-items" to="/projects#gallery">Gallery</HashLink></NavDropdown.Item>
           </ul>
           </Nav.Link>
           <Nav.Link as={Link} to="/about" className="item">About</Nav.Link>
-          <Nav.Link as={Link} to="#contact" className="item">Contact</Nav.Link>
+          <Nav.Link as={Link} to="#contact" className="item"><HashLink className=" dropdown-items d-items" to="#contact">Contact</HashLink></Nav.Link>
          </Nav>
         </Navbar>
 

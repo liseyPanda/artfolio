@@ -17,7 +17,7 @@ import './App.css';
 function App() {
   library.add(fab);
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="App">
 
       <Navigation></Navigation>

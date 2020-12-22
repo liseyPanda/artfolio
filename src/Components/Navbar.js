@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavDropdown, NavLink } from 'react-bootstrap';
 import logo from '../Images/naicha3.png';
 import '../App.css';
@@ -36,19 +36,20 @@ render(){
           formosaboba
         </Navbar.Brand>
          <Nav className="mr-auto">
-          <Nav.Link href="/portfolio" className="item" >Home</Nav.Link>
+          <Nav.Link as={Link} to="/" className="item" >Home</Nav.Link>
           <Nav.Link
             className="item"
-            href="/portfolio/projects"
+            as={Link}
+            to="/projects"
             id="dropdown"
           >Projects
           <ul className="dropdown-menu">
-            <NavDropdown.Item className="dropdown-items" href="/portfolio/projects#compsci">Programs</NavDropdown.Item>
-            <NavDropdown.Item className="dropdown-items" href="/portfolio/projects#gallery">Gallery</NavDropdown.Item>
+            <NavDropdown.Item className="dropdown-items" as={Link} to="/projects#compsci">Programs</NavDropdown.Item>
+            <NavDropdown.Item className="dropdown-items" as={Link} to="/projects#gallery">Gallery</NavDropdown.Item>
           </ul>
           </Nav.Link>
-          <Nav.Link href="/portfolio/about" className="item">About</Nav.Link>
-          <Nav.Link href="#contact" className="item">Contact</Nav.Link>
+          <Nav.Link as={Link} to="/about" className="item">About</Nav.Link>
+          <Nav.Link as={Link} to="#contact" className="item">Contact</Nav.Link>
          </Nav>
         </Navbar>
 
